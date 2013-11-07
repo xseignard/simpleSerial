@@ -1,0 +1,16 @@
+{
+	"name": "Blink",
+	"description": "blink a led",
+	"version": "0.1",
+	"manifest_version": 2,
+
+	"app": {
+		"background": {
+			"scripts": ["js/background.js"]
+		}
+	},
+
+	"permissions" : [
+		"serial"
+	]
+}
